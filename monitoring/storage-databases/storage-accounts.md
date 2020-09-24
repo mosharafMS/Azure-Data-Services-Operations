@@ -13,11 +13,17 @@ When it comes to saving files we have two types of storage accounts
 
 
 
-## Security Monitori
+## Security Monitoring/Auditing
 
-| What to Monitor       | How to Monitor            | Comments                                                     |
-| --------------------- | ------------------------- | ------------------------------------------------------------ |
-| Configuration changes | Activity logs             | Make sure to send activity logs (per subscription) to log analytics workspace then query the logs from there. For known security configuration changes like *secure transfer required* , alerts should be created for it |
-| Data Access logging   | Storage Analytics logging | ![image-20200924000811590](/monitoring/assets/images/image-20200924000811590.png) <br /> For more details refer to the [docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet) |
-|                       |                           |                                                              |
+| What to Monitor        | How to Monitor            | Comments                                                     |
+| ---------------------- | ------------------------- | ------------------------------------------------------------ |
+| Configuration changes  | Activity logs             | Make sure to send activity logs (per subscription) to log analytics workspace then query the logs from there. For known security configuration changes like *secure transfer required* , alerts should be created for it |
+| Data Access logging    | Storage Analytics logging | ![image-20200924000811590](/monitoring/assets/images/image-20200924000811590.png) <br /> For more details refer to the [docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet) |
+| Unusual egress traffic | Azure monitor - Metrics   | ![image-20200924104121774](/monitoring/assets/images/image-20200924104121774.png)<br />The Egress metrics shows the size of the egress traffic. If you have higher than usual, that can be a sign of breach and data exfiltration attempt. You can use the [dynamic threshold feature](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-dynamic-thresholds) of Azure monitor |
+
+
+
+
+
+## Performance Monitoring
 
