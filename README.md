@@ -4,6 +4,6 @@ Documentations for how to operationalize Azure Data Services. With focus on Gove
 
 ## Index
 - Security
-- [Monitoring](monitoring/main.md)
+- [Monitoring](monitoring/readme.md)
 - High Availability & Disaster Recovery
 
