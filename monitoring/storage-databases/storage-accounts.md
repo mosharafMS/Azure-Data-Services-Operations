@@ -18,6 +18,6 @@ When it comes to saving files we have two types of storage accounts
 | What to Monitor       | How to Monitor            | Comments                                                     |
 | --------------------- | ------------------------- | ------------------------------------------------------------ |
 | Configuration changes | Activity logs             | Make sure to send activity logs (per subscription) to log analytics workspace then query the logs from there. For known security configuration changes like *secure transfer required* , alerts should be created for it |
-| Data Access logging   | Storage Analytics logging | ![image-20200924000811590](C:\Users\mosharaf\source\repos\Azure-Data-Services-Operations\monitoring\assets\images\image-20200924000811590.png) <br /> For more details refer to the [docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet) |
+| Data Access logging   | Storage Analytics logging | ![image-20200924000811590](/monitoring/assets/images/image-20200924000811590.png) <br /> For more details refer to the [docs](https://docs.microsoft.com/en-us/azure/storage/common/storage-analytics-logging?tabs=dotnet) |
 |                       |                           |                                                              |
 
