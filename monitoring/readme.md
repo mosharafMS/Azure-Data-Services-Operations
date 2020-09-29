@@ -1,6 +1,7 @@
 # Monitoring
 
 - [Storage & Databases](storage-databases/readme.md)
-- Databricks
-- Data Factory
-- Machine Learning Service
+- Azure Synapse Analytics
+- [Databricks](databricks/readme.md)
+- [Data Factory](data-factory/readme.md)
+- [Machine Learning Service](machine-learning/readme.md)
