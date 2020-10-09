@@ -39,7 +39,7 @@ For example, once logging is configured:
 * The user accessing Azure Databricks and the user's progression through the workspace and timelines can be monitored
 * Access to secrets in secret scopes can be monitored as well
 
-
+![adbaad](/monitoring/assets/images/adbaad.png)
 
 
 ## Performance Monitoring
