@@ -36,7 +36,7 @@ Log in to Azure Portal as Owner or Contributor role. Under the Databricks worksp
 ![image](https://docs.microsoft.com/en-us/azure/databricks/_static/images/audit-logs/azure-diagnostic-settings.png)
 
 For example, once logging is configured:
-* The user accessing Azure Databricks and the user's progression through the workspace and timelines can be monitored
+* The user accessing Azure Databricks and the user's progression through the workspace and timelines can be monitored. Here is what the logging looks like, exported from storage account:
 
 ![adbaad](/monitoring/assets/images/adbaad.PNG)
 ![adbnotebook](/monitoring/assets/images/adbnotebook.PNG)
@@ -45,12 +45,16 @@ For example, once logging is configured:
 
 ![adbsecret](/monitoring/assets/images/adbsecret.PNG)
 
+* Jobs can be monitored as well through diagnostic logging. Some users may like to use the Databricks APIs to build pipeline job alerting. More information can be found here: https://docs.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/jobs#--runs-list.
 
 ## Performance Monitoring
 
+For performance monitoring, a good starting point is the Ganglia metrics: https://docs.microsoft.com/en-us/azure/databricks/clusters/clusters-manage#monitor-performance. You can also export historical metrics from the UI as well. This is a good way to monitor notebook runs to determine if tasks require more memory or CPU. You can find metrics under the Cluster page in Azure Databricks:
 
+![image](https://docs.microsoft.com/en-us/azure/databricks/_static/images/clusters/metrics-tab.png)
+![adbmetrics](/monitoring/assets/images/adbmetrics.PNG)
 
-
+For application logging, 
 
 
 
