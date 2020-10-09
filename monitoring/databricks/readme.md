@@ -31,12 +31,13 @@ Reference here: https://docs.microsoft.com/en-us/azure/databricks/administration
 
 Please note that Diagnostic Logs require the Azure Databricks Premium Plan. 
 
-Log in to Azure Portal as Owner or Contributor role. Under the Databricks workspace in monitoring, click on Diagnostic settings and Turn on diagnostics. Once you confirm, the logs should flow through.
+Log in to Azure Portal as Owner or Contributor role. Under the Databricks workspace in monitoring, click on Diagnostic settings and Turn on diagnostics / Add diagnostic setting. Once you confirm, the logs should flow through.
 
 ![image](https://docs.microsoft.com/en-us/azure/databricks/_static/images/audit-logs/azure-diagnostic-settings.png)
 
-
-
+For example, once logging is configured:
+* The user accessing Azure Databricks and the user's progression through the workspace and timelines can be monitored
+* Access to secrets in secret scopes can be monitored as well
 
 
 
