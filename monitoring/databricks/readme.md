@@ -100,5 +100,5 @@ One way to monitor is here: https://docs.microsoft.com/en-us/azure/virtual-machi
 
 In addition, if Azure Databricks is deployed through vnet injection, it is worthwhile to monitor the number of avaiable IP addresses. This information can be found under the subnet settings page:
 
-![adbmetrics](/monitoring/assets/images/adbmetrics.PNG)
+![adbvnet](/monitoring/assets/images/adbvnet.PNG)
 
