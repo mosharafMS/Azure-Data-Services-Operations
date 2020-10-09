@@ -15,6 +15,7 @@ In this section, areas of secuirty monitoring, auditing, performance monitoring,
 ## Security Monitoring/Auditing
 
 From a security monitoring and auditing perspective, Azure Databricks provides comprehensive end-to-end diagnostic logs of activities performed by Azure Databricks users, allowing your enterprise to monitor detailed Azure Databricks usage patterns:
+
 *	DBFS
 *	Clusters
 *	Pools
@@ -25,6 +26,7 @@ From a security monitoring and auditing perspective, Azure Databricks provides c
 *	Workspace
 *	Secrets
 *	SQL Permissions
+
 Reference here: https://docs.microsoft.com/en-us/azure/databricks/administration-guide/account-settings/azure-diagnostic-logs
 
 Please note that Diagnostic Logs require the Azure Databricks Premium Plan. 
