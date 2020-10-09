@@ -37,9 +37,13 @@ Log in to Azure Portal as Owner or Contributor role. Under the Databricks worksp
 
 For example, once logging is configured:
 * The user accessing Azure Databricks and the user's progression through the workspace and timelines can be monitored
-* Access to secrets in secret scopes can be monitored as well
 
 ![adbaad](/monitoring/assets/images/adbaad.PNG)
+![adbnotebook](/monitoring/assets/images/adbnotebook.PNG)
+
+* Access to secrets in secret scopes can be monitored as well
+
+![adbsecret](/monitoring/assets/images/adbsecret.PNG)
 
 
 ## Performance Monitoring
