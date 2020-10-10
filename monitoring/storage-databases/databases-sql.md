@@ -1,5 +1,3 @@
-Configuration changes  Azure Monitor - Activity logs  Make sure to send activity logs (per subscription) to log analytics workspace then query the logs from there. For known security configuration changes like *secure transfer required* , alerts should be created for itAzure SQL
-
 Azure SQL is a family of managed, secure, and intelligent products that use the SQL Server database engine in the Azure cloud. For this operation docs, we will discuss the monitorintg for 
 
 - **Azure SQL Database**: Support modern cloud applications on an intelligent, managed database service, that includes serverless compute.
